@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    scroll-padding-top: 3rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 20px;
+}
+
+#main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFAF0;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.nav-logo {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav-bar li:hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url('../images/chemical_factory.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 3rem;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    padding: 20px;
+}
+
+.highlight-item {
+    height: 100px;
+    width: 450px;
+    box-shadow: 8px 8px 2px grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+
+.product-tables {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.product-tables table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.product-tables caption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.product-tables thead {
+    background-color: rgb(228 240 245);
+}
+
+.product-tables th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+.product-tables tbody>tr:nth-of-type(even) {
+    background-color: white;
+}
+
+.product-tables tbody>tr:nth-of-type(odd) {
+    background-color: lightgrey;
+}
+
+#contact {
+    background-color: #00bfff;
+}
+
+.addresses {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+
+.address-card {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.access {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-sub-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.capability {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.capability td {
+    height: 100px;
+    width: 100px;
+}
+
+#about,
+#products,
+#contact {
+    background-image: url('../images/chemical_formulas.jpg');
+    background-size: 30%;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: white;
+}
+
+.profile-card-name {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.profile-card-details {
+    padding: 20px;
+}
