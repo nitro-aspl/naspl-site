@@ -78,20 +78,19 @@ a {
     padding: 20px;
 }
 
-#about {
-    background-image: url('../images/abstract_shapes.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 .highlight-item {
-    height: 100px;
-    width: 450px;
     box-shadow: 8px 8px 2px grey;
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     background-color: white;
+    text-align: center;
+}
+
+#about {
+    background-image: url('../images/abstract_shapes.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .product-tables {
