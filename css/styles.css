@@ -42,10 +42,6 @@ section {
     padding: 1rem;
 }
 
-.nav-bar li:hover {
-    background-color: grey;
-}
-
 a {
     text-decoration: none;
     color: black;
