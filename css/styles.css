@@ -12,6 +12,7 @@ body {
 html {
     scroll-padding-top: 3rem;
     scroll-behavior: smooth;
+    font-size: 1.2rem;
 }
 
 section {
@@ -40,6 +41,15 @@ section {
 .nav-bar li {
     display: inline;
     padding: 1rem;
+}
+
+.nav-bar a {
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+}
+
+.nav-bar a:hover {
+    background-color: grey;
 }
 
 a {
@@ -75,7 +85,6 @@ a {
 }
 
 .highlight-item {
-    box-shadow: 8px 8px 2px grey;
     border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
