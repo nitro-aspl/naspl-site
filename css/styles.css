@@ -26,16 +26,18 @@ section {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #FFFAF0;
+    background-color: white;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: #004FD7 !important;
+    font-size: 1.2rem;
 }
 
 .nav-bar {
     list-style: none;
-}
-
-.nav-logo {
-    color: white;
-    font-weight: bold;
 }
 
 .nav-bar li {
@@ -46,10 +48,11 @@ section {
 .nav-bar a {
     padding: 0.7rem 1rem;
     border-radius: .75rem;
+    font-weight: bold;
 }
 
 .nav-bar a:hover {
-    background-color: grey;
+    background-color: #99BEFF;
 }
 
 a {
@@ -59,20 +62,26 @@ a {
 
 .hero {
     height: 70vh;
-    background-image: url('../images/chemical_factory.jpg');
-    background-size: cover;
-    background-position: center;
     display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-.hero-content {
+.hero-title {
     text-align: center;
-    color: white;
+    color: #004FD7;
     position: relative;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    width: 45%;
+}
+
+.hero-image {
+    width: 55%;
+    height: 80%;
+    border-radius: 20px;
 }
 
 .highlights {
