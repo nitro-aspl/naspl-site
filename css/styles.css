@@ -32,7 +32,7 @@ section {
 .nav-logo {
     font-weight: bold;
     font-family: Georgia, serif;
-    color: #004FD7 !important;
+    color: #19a1d5;
     font-size: 1.2rem;
 }
 
@@ -52,7 +52,7 @@ section {
 }
 
 .nav-bar a:hover {
-    background-color: #99BEFF;
+    background-color: #19a1d5;
 }
 
 a {
@@ -70,7 +70,7 @@ a {
 
 .hero-title {
     text-align: center;
-    color: #004FD7;
+    color: #19a1d5;
     position: relative;
     font-size: 2.8rem;
     font-family: Georgia, serif;
