@@ -34,6 +34,7 @@ section {
     font-family: Georgia, serif;
     color: #19a1d5;
     font-size: 1.2rem;
+    margin-left: 180px;
 }
 
 .nav-bar {
@@ -49,10 +50,11 @@ section {
     padding: 0.7rem 1rem;
     border-radius: .75rem;
     font-weight: bold;
+    color: #19a1d5;
 }
 
 .nav-bar a:hover {
-    background-color: #19a1d5;
+    background-color: lightgrey;
 }
 
 a {
