@@ -34,7 +34,7 @@ section {
     font-family: Georgia, serif;
     color: #19a1d5;
     font-size: 1.2rem;
-    margin-left: 180px;
+    margin-left: 150px;
 }
 
 .nav-bar {
@@ -71,13 +71,17 @@ a {
 }
 
 .hero-title {
+    width: 45%;
+}
+
+.company-name {
     text-align: center;
     color: #19a1d5;
     position: relative;
     font-size: 2.8rem;
     font-family: Georgia, serif;
     font-weight: bold;
-    width: 45%;
+    padding: 10px;
 }
 
 .hero-image {
@@ -148,29 +152,6 @@ td {
     background-color: lightgrey;
 }
 
-#contact {
-    background-color: #00bfff;
-}
-
-.addresses {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 200px;
-}
-
-.address-card {
-    width: 400px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-}
-
-.access {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 200px;
-}
-
 .section-heading {
     text-align: center;
     padding-bottom: 30px;
@@ -197,7 +178,6 @@ td {
 }
 
 #products,
-#contact,
 #factory-images {
     background-image: url('../images/chemical_formulas.jpg');
     background-size: 50%;
@@ -263,16 +243,20 @@ h5 {
 }
 
 .carousel-item {
-    display: none; /* Hide all items by default */
+    display: none;
+    /* Hide all items by default */
 }
 
 .carousel-item.active {
-    display: block; /* Show active item */
+    display: block;
+    /* Show active item */
 }
 
 .carousel img {
-    width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    /* Make images responsive */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 button {
@@ -286,9 +270,54 @@ button {
 }
 
 .prev {
-    left: 10px; /* Position left button */
+    left: 10px;
+    /* Position left button */
 }
 
 .next {
-    right: 10px; /* Position right button */
+    right: 10px;
+    /* Position right button */
+}
+
+section#contact {
+    background: linear-gradient(rgba(0, 119, 182, 0.9), rgba(0, 119, 182, 0.9));
+    padding: 50px 20px;
+    color: white;
+}
+
+.address-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--section-bg);
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    flex: 1;
+    min-width: 250px;
+}
+
+.info-block h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.info-block p {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+
+.divider {
+    border-bottom: 1px solid var(--line);
+    margin: 25px 0;
 }
